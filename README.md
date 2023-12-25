@@ -22,13 +22,13 @@ The Airplane Calculator API offers an endpoint for calculating fuel consumption 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repo/airplane-calculator-api.git
+    git clone https://github.com/paakwasi317/kami-airline.git
     ```
 
 2. Change to the project directory:
 
     ```bash
-    cd airplane-calculator-api
+    cd kami-airline/
     ```
 
 3. Create `.env` file in the project root directory with these database config:
@@ -63,5 +63,5 @@ make test
 To shut down docker containers:
 
 ```bash
-make test
+make down
 ```
