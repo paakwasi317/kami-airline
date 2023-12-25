@@ -7,13 +7,14 @@ This document provides instructions on setting up and running the Airplane Calcu
 The Airplane Calculator API offers an endpoint for calculating fuel consumption and max fly minutes for a list of airplanes. The project utilizes Docker and Docker Compose to containerize the Python/Django application and services.
 
 ## Technologies
+- Make
 - Docker
 - Docker Compose
 
 ## Getting Started
 
 ### Prerequisites
-
+- Make
 - Docker Desktop
 - Docker Compose
 
