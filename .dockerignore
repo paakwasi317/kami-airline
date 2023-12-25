@@ -1,0 +1,7 @@
+# Ignore docker related files
+docker-compose*
+Dockerfile
+.dockerignore
+
+# Ignore virtual env
+venv/
