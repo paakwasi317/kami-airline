@@ -31,7 +31,18 @@ The Airplane Calculator API offers an endpoint for calculating fuel consumption 
     cd airplane-calculator-api
     ```
 
-3. Build and start the Docker containers:
+3. Create `.env` file in the project root directory with these database config:
+
+    ```bash
+    DJANGO_SECRET_KEY=some_secret
+    DB_USER=postgres
+    DB_PASSWORD=postgres
+    DB_HOST=db
+    DB_PORT=5432
+    DB_NAME=postgres
+    ```
+
+4. Build and start the Docker containers:
 
     ```bash
     make up
